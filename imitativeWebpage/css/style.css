@@ -1,0 +1,133 @@
+
+body {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+body {
+    background-color: #f2f3f5;
+
+}
+
+.sBoxs {
+    /* display: flexbox; */
+    display: flex;
+    outline: auto;
+}
+
+.boxPic {
+    width:250px;
+}
+
+.smartBox 
+{
+    outline: auto;
+    padding: 20px;
+}
+.strongBox {
+    outline: auto;
+    padding: 20px;
+}
+
+.stableBox {
+    outline: auto;
+    padding: 20px;
+}
+
+#heroImage {
+    display: flex;
+    width: 90%;
+    justify-self: center;
+    padding: 25px;
+}
+.logo {
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+ul {
+    
+    background-color: color #0b0b31;
+}
+
+.topHeader {
+    position: relative;
+    background-color: #0b0b31;
+    width: auto;
+    height: 20px;
+    color: #f2f3f5;
+}
+
+.topHeaderLinks {
+    color: #f2f3f5;
+}
+
+a {
+    color: #f2f3f5;
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(15, 15, 62);
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    /* display: table-column; */
+    margin-right: 0px;
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+}
+
+.navBar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-evenly;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 5px;
+    /* margin-right: 250px;
+    margin-left: 250px; */
+}
+
+.moreButton 
+{
+    color: #f2f3f5;
+    background-color: #0b0b31;
+}
+
+.bottomBoxes {
+    display: flex;
+}
+.servicesBox {
+    outline: auto;
+    padding: 10px;
+}
+
+.opportunitiesBox {
+    outline: auto;
+    padding: 10px;
+}
+
+.newsBox {
+    padding: 10px;
+    outline: auto;
+}
+footer {
+    /* background-color: #0b0b31; */
+    
+}
+
