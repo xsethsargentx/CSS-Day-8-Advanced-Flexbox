@@ -12,6 +12,9 @@ body {
     background-color: #f2f3f5;
 }
 
+p {
+    color: #808080;
+}
 .topHeaderBar {
     background-color: #0b0b31;
     color: #a9a9a9;
@@ -55,6 +58,8 @@ body {
 .heroImage {
     width: 85%;
     justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logoAndNav {
@@ -65,12 +70,6 @@ body {
     /* border-bottom: 1px solid #0b0b31; */
 }
 
-.heroImage {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .heroImageSection {
     position: relative;
     display: flex;
@@ -78,6 +77,11 @@ body {
     margin-right: auto;
 }
 
+.cirButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 4px;   
+}
 .cirButton {
     display: inline;
     bottom: 10px;
@@ -88,65 +92,96 @@ body {
     margin: 4px;
 }
 
-.cirButtonContainer {
+.topFlexContainer {
     display: flex;
-    justify-content: center;
-    margin: 4px;   
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    border-top: solid 1px #0b0b31;
+    align-items: baseline;
 }
 
-#sTable {
-    border-top: 1px solid #0b0b31;
+.boxPics {
+    width: 200px;
 }
 
-.smartBox {
-    border-right:solid #0b0b31;
+
+#smartBox {
+    width: 200px;
+    border-right: solid 1px #0b0b31;
+    padding: 10px;
 }
 
+#strongBox {
+    width: 200px;
+    padding: 10px;
+}
+
+#stableBox {
+    width: 200px;
+    border-left: solid 1px #0b0b31;
+    padding: 10px;
+}
 .stableBox {
     border-left: 1px solid #0b0b31;
 }
 
-.boxPic {
-    height: 100px;
-    padding: 20px;
+.botFlexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    color: #f2f3f5;
+    background: rgb(14,22,31);
+    background: linear-gradient(307deg, rgba(14,22,31,1) 1%, rgba(28,45,64,1) 100%);
+    padding-bottom: 10px;
+    align-items: baseline;
+
+}
+
+#servicesBox {
+    width: 200px;
+}
+.servicesBox {
+    display: flex;
+    position: relative;
+}
+.servicesLi {
+    list-style-type: '⚙️';
+    padding-inline-start: 1ch;
+    line-height: 30px;
+    color: #808080;
+}
+#opportunitiesBox {
+    width: 200px;
+    line-height: 25px;
+}
+.opportunitiesLi {
+    list-style-type: '💬';
+    padding-inline-start: 1ch;
+}
+
+#newsBox {
+    width: 200px;
+    line-height: 20px;
+}
+.newsLi {
+    list-style-type: '📅';
+    padding-inline-start: 1ch;
 }
 
 .moreButton {
     color: #f2f3f5;
     background-color: #0b0b31;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
     margin: 1px;
-}
-
-.servicesBox {
-    display: flex;
-    position: relative;
-}
-
-.botTable {
-    /* outline: auto; */
-    /* border: solid black; */
-    color: #f2f3f5;
-    background: rgb(14,22,31);
-    background: linear-gradient(307deg, rgba(14,22,31,1) 1%, rgba(28,45,64,1) 100%);
-    justify-content: center;
 }
 
 .footer {
     color: #f2f3f5;
-    background: rgb(14,22,31);
-    background: linear-gradient(307deg, rgba(14,22,31,1) 1%, rgba(28,45,64,1) 100%);
-}
-
-.opportunities {
-    vertical-align: text-top;
-}
-
-.news {
-    vertical-align: text-top;
-}
-
-table {
-    table-layout: fixed;
+    background: #0e1e31;
+    /* background: linear-gradient(307deg, rgba(14,22,31,1) 1%, rgba(28,45,64,1) 100%); */
+    height: 60px;
+    align-content: center;
 }
